@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Todo CRUD</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Daily<span>DP</span> Tasks</h1>
+            <p>Manage your daily operations with ease</p>
+        </header>
+
+        <div class="input-section">
+            <div class="input-group">
+                <input type="text" id="taskInput" placeholder="What needs to be done?">
+                <button id="addBtn">Add Task</button>
+            </div>
+        </div>
+
+        <div class="task-container">
+            <ul id="taskList">
+                <!-- Tasks will appear here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <h2>Edit Task</h2>
+            <input type="text" id="editInput">
+            <div class="modal-buttons">
+                <button id="saveEditBtn">Save Changes</button>
+                <button id="closeModalBtn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
