@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Environment variables - NEVER commit!
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Temp test files
+test-ai.js
+test-ai-detailed.js
+test-api.js
+ai-test-result.txt
